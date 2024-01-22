@@ -1,0 +1,1 @@
+TRIM(REPLACENULL(Title,"") + " " + REPLACENULL(FirstName,"") + " " + TRIM(REPLACENULL(MiddleName,"") + " ") + REPLACENULL(LastName,"") + " " + REPLACENULL(Suffix,""))
